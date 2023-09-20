@@ -1,0 +1,13 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+      "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+      "DocumentAnalysisEndpoint": "https://{document-intelligence}.cognitiveservices.azure.com/",
+      "DocumentAnalysisKey": "{key}",
+      "AzureOpenAiEndpoint": "https://{openai}.openai.azure.com/",
+      "AzureOpenAiKey": "{key}",
+      "AzureOpenAiChatDeploymentName": "{deployment-name}",
+      "AzureOpenAiEmbeddingDeploymentName": "{deployment-name}"
+    }
+}
