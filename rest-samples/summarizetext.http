@@ -1,0 +1,7 @@
+POST http://localhost:7071/api/SummarizeText
+Content-Type: application/json
+
+{
+    "text": "Azure is a huge collection of servers and networking hardware, which runs a complex set of distributed applications. These applications orchestrate the configuration and operation of virtualized hardware and software on those servers.",
+    "id": "1234"
+}

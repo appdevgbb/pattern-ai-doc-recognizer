@@ -1,0 +1,7 @@
+POST http://localhost:7071/api/ProcessFile
+Content-Type: application/json
+
+{
+    "fileUri": "https://aidemos1000.blob.core.windows.net/docs/Sample.pdf",
+    "id": "1234"
+}
