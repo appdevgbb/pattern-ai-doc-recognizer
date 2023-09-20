@@ -34,6 +34,20 @@ Here's a simple guide to get you started:
   
 This codespace is a full-fledged development environment and you can write and run your code just like you would on your local machine. The devcontainer configuration in the repository sets up all the necessary software and libraries for you.  
 
+#### Configure a copy of local.settings.json file 
+
+Please follow these steps to set up your environment variables:  
+  
+1. Copy the provided `local.settings.json.example` as `local.settings.json` file.  
+1. Edit the `local.settings.json` and change the following:  
+- Replace `{document-intelligence}` with your Document Intelligence instance's name.  
+- Replace the first `{key}` with your Document Intelligence key.  
+- Replace `{openai}` with your OpenAI instance's name.  
+- Replace the second `{key}` with your OpenAI key.  
+- Replace both instances of `{deployment-name}` with your deployment's name.  
+  
+This file will now be used to configure your environment variables.  
+
 #### Creating an Azure OpenAI instance using gpt-3.5-turbo  
   
 Currently, Azure CLI doesn't support creating an Azure OpenAI instance directly. You'll need to use the OpenAI API.   
